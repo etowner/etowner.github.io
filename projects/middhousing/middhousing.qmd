@@ -1,12 +1,15 @@
 ---
 title: "MiddHousing"
-author: Caroline Haggerty, Julian Sandoval, Nate Harris, Siri, Vy Diep, Emmanuel Towner
+author: Emmanuel Towner
 format: html
 image: 'middhousing.png'
 ---
 
 ## App Description
 MiddHousing is a web app that allows students to find accurate information about individual dorm rooms and rate rooms they have previously lived in. Students can also sort their searches based on specific preferences and view the campus map for specific locations.
+
+## Contributors
+Caroline Haggerty, Julian Sandoval, Nate Harris, Siri, Vy Diep, Emmanuel Towner
 
 ## My Role
 I implemented both the main and dorm search bars, allowing users to view all dorms and filter by preferences. I also created the review functionality, enabling users to rate rooms out of five stars and write about their room experiences in a text box. Furthermore, I utilized the API to access backend information about rooms, such as size and room type. I also assisted in the development and testing of the Knex.js models.

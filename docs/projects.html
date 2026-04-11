@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Emmanuel Towner">
 
-<title>Bank App</title>
+<title>Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-e811509aa7e24e393ff91be5de4a9bdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-9eefaf6a0b7a701e037a862435001266.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-e811509aa7e24e393ff91be5de4a9bdf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-9eefaf6a0b7a701e037a862435001266.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,12 +70,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../../styles.css">
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -87,19 +146,19 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html"> 
+    <a class="nav-link" href="./posts.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../projects.html"> 
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -130,28 +189,22 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Bank App</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Emmanuel Towner </p>
-          </div>
-  </div>
     
   
     
@@ -162,51 +215,120 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This was my first project: a full-stack web application that simulates the functions of a bank website. The backend was built with Java Spring Boot and MongoDB as the database. The frontend uses React, with Axios as the API client between it and the local server.</p>
-</section>
-<section id="features" class="level2">
-<h2 class="anchored" data-anchor-id="features">Features</h2>
-<ul>
-<li>Profile:
-<ul>
-<li>Username</li>
-<li>Password</li>
-<li>Bank accounts (Checking/Savings)</li>
-</ul></li>
-<li>Banking features:
-<ul>
-<li>Deposit</li>
-<li>Withdraw</li>
-<li>Transfer</li>
-</ul></li>
-<li>Pie chart representing the balance of each account</li>
-<li>Transaction history table and graph for each account</li>
-<li>Database for storing user information</li>
-</ul>
-</section>
-<section id="technologies" class="level2">
-<h2 class="anchored" data-anchor-id="technologies">Technologies</h2>
-<section id="frontend" class="level3">
-<h3 class="anchored" data-anchor-id="frontend">Frontend</h3>
-<p>React, Bootstrap, Axios</p>
-</section>
-<section id="backend" class="level3">
-<h3 class="anchored" data-anchor-id="backend">Backend</h3>
-<p>Java, Spring Boot, MongoDB</p>
-</section>
-</section>
-<section id="links" class="level2">
-<h2 class="anchored" data-anchor-id="links">Links</h2>
-<ul>
-<li>📦 <a href="https://github.com/EpicET/bank_app">GitHub Repository</a></li>
-</ul>
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1775878476805" data-listing-reading-time-sort="1" data-listing-word-count-sort="116">
+<div class="thumbnail">
+<p><a href="./projects/bank/bank_app.html" class="no-external"></a></p><a href="./projects/bank/bank_app.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./projects/bank/bank_app.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./projects/bank/bank_app.html" class="no-external">Bank App</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./projects/bank/bank_app.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./projects/bank/bank_app.html" class="no-external">This was my first project: a full-stack web application that simulates the functions of a bank website. The backend was built with Java Spring Boot and MongoDB as the…</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./projects/bank/bank_app.html" class="no-external"></a></p><a href="./projects/bank/bank_app.html" class="no-external">
+<div class="listing-author">
+Emmanuel Towner
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-listing-file-modified-sort="1775878588303" data-listing-reading-time-sort="1" data-listing-word-count-sort="142">
+<div class="thumbnail">
+<p><a href="./projects/pneumonia/vit.html" class="no-external"></a></p><a href="./projects/pneumonia/vit.html" class="no-external">
+<p><img loading="lazy" src="./projects/pneumonia/image.png" class="thumbnail-image"></p>
+</a><p><a href="./projects/pneumonia/vit.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./projects/pneumonia/vit.html" class="no-external">Pneumonia Classification</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./projects/pneumonia/vit.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./projects/pneumonia/vit.html" class="no-external">This model was part of a larger project where a team built a machine learning pipeline for image classification. We leveraged the Kaggle pneumonia chest X-ray dataset, which…</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./projects/pneumonia/vit.html" class="no-external"></a></p><a href="./projects/pneumonia/vit.html" class="no-external">
+<div class="listing-author">
+Emmanuel Towner
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-listing-file-modified-sort="1775855732775" data-listing-reading-time-sort="2" data-listing-word-count-sort="213">
+<div class="thumbnail">
+<p><a href="./projects/middhousing/middhousing.html" class="no-external"></a></p><a href="./projects/middhousing/middhousing.html" class="no-external">
+<p><img loading="lazy" src="./projects/middhousing/middhousing.png" class="thumbnail-image"></p>
+</a><p><a href="./projects/middhousing/middhousing.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./projects/middhousing/middhousing.html" class="no-external">MiddHousing</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./projects/middhousing/middhousing.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./projects/middhousing/middhousing.html" class="no-external">MiddHousing is a web app that allows students to find accurate information about individual dorm rooms and rate rooms they have previously lived in. Students can also sort…</a>
+</div>
+</div>
+<div class="metadata">
+<p><a href="./projects/middhousing/middhousing.html" class="no-external"></a></p><a href="./projects/middhousing/middhousing.html" class="no-external">
+<div class="listing-author">
+Emmanuel Towner
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-listing-date-sort="1747627200000" data-listing-file-modified-sort="1775877434753" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1212">
+<div class="thumbnail">
+<p><a href="./projects/pneumonia/Final_Project_BP.html" class="no-external"></a></p><a href="./projects/pneumonia/Final_Project_BP.html" class="no-external">
+<p><img loading="lazy" src="./projects/pneumonia/image.png" class="thumbnail-image"></p>
+</a><p><a href="./projects/pneumonia/Final_Project_BP.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./projects/pneumonia/Final_Project_BP.html" class="no-external">Pnuemonia Detection</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./projects/pneumonia/Final_Project_BP.html" class="no-external"></a>
+</div>
+<div class="listing-description">
+<a href="./projects/pneumonia/Final_Project_BP.html" class="no-external">In this project, we built a convolutional neural network (CNN) to embed chest X-ray images into a latent space, then compared three binary classifiers—Support Vector Machine, XGBoost, and Transformer—on their ability to detect pneumonia.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./projects/pneumonia/Final_Project_BP.html" class="no-external">
+<div class="listing-date">
+May 19, 2025
+</div>
+<div class="listing-author">
+Lia Smith, Cameron Hudson, Robsan Dinka, Emmanuel Towner
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
