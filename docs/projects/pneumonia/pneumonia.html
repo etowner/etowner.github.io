@@ -10,7 +10,7 @@
 <meta name="dcterms.date" content="2025-05-19">
 <meta name="description" content="In this project, we built a convolutional neural network (CNN) to embed chest X-ray images into a latent space, then compared three binary classifiers—Support Vector Machine, XGBoost, and Transformer—on their ability to detect pneumonia.">
 
-<title>Pnuemonia Detection</title>
+<title>Pneumonia Classification</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -161,7 +161,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Pnuemonia Detection</h1>
+<h1 class="title">Pneumonia Classification</h1>
 </div>
 
 <div>
@@ -235,7 +235,7 @@ div.csl-indent {
 <section id="emmanuel-towner" class="level3">
 <h3 class="anchored" data-anchor-id="emmanuel-towner">Emmanuel Towner</h3>
 <ul>
-<li><p>Implemented a Vision Transformer-style classifier in <code>Transformer.py</code> <!-- - Designed the model to take latent feature vectors and output class probabilities for pneumonia classification.
+<li>Implemented a Vision Transformer-style classifier in <code>Transformer.py</code> <!-- - Designed the model to take latent feature vectors and output class probabilities for pneumonia classification.
   - Built a stack of encoder blocks (`num_layers`) using:
     - Multi-head self-attention (`nn.MultiheadAttention`)
     - Layer normalization with residual connections (Add & Norm)
@@ -245,22 +245,27 @@ div.csl-indent {
     - Prepends the class token and applies positional encoding
     - Runs the encoded sequence through all transformer layers
     - Uses the class-token representation for final classification through a linear head
-  - Implemented testing loop with evaluation metrics --></p></li>
-<li><p>Managed the adaption and intergration of the main codebase <!-- - Ported Lia's notebook-based vectorization steps into the repository's local workflow.
+  - Implemented testing loop with evaluation metrics --></li>
+<li>Managed the adaption and intergration of the main codebase <!-- - Ported Lia's notebook-based vectorization steps into the repository's local workflow.
   - Reconciled environment differences between Colab and local execution (paths/modules/dependencies) to make the pipeline reproducible for the full team.
   - Integrated all models and created a cohesive workflow
-  - Iterated on integration and cleanup in the vectorization notebooks so model experiments could run consistently across branches. --></p></li>
-<li><p>Contributed to model evaluation ### Cameron Hudson</p></li>
-<li><p>Implemented a gradient boosting classifier pipeline in <code>GradientBoosting.py</code> <!-- - Built a boosting loop that starts from baseline log-odds and iteratively improves predictions.
+  - Iterated on integration and cleanup in the vectorization notebooks so model experiments could run consistently across branches. --></li>
+<li>Contributed to model evaluation</li>
+</ul>
+</section>
+<section id="cameron-hudson" class="level3">
+<h3 class="anchored" data-anchor-id="cameron-hudson">Cameron Hudson</h3>
+<ul>
+<li>Implemented a gradient boosting classifier pipeline in <code>GradientBoosting.py</code> <!-- - Built a boosting loop that starts from baseline log-odds and iteratively improves predictions.
   - Computed pseudo-residuals for binary classification and fit shallow regression trees as weak learners.
   - Applied learning-rate-scaled tree updates over multiple boosting rounds to refine decision boundaries.
   - Implemented prediction logic that aggregates all trained learners and thresholds sigmoid outputs into class labels. --> <!-- - Added experimental support assets for gradient boosting evaluation
   - Organized companion notebook testing in `GradientBoostTest.ipynb` to validate behavior and outputs.
   - Added/maintained `csv_data/*` files used to run and compare experiments.
-  - Linked model implementation work with writeups so methodology and reported results stayed aligned. --></p></li>
-<li><p>Wrote Introduction, abstract, and value statements of the blog post <!-- - Contributed to model and project integration tasks
+  - Linked model implementation work with writeups so methodology and reported results stayed aligned. --></li>
+<li>Wrote Introduction, abstract, and value statements of the blog post <!-- - Contributed to model and project integration tasks
   - Participated in cross-branch integration work (including merge activity tied to vectorization work).
-  - Made edits in shared project files to keep documentation and implementation progress synchronized. --></p></li>
+  - Made edits in shared project files to keep documentation and implementation progress synchronized. --></li>
 </ul>
 </section>
 <section id="lia-smith" class="level3">
