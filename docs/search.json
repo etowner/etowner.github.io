@@ -11,14 +11,14 @@
     "href": "index.html",
     "title": "Emmanuel Towner",
     "section": "",
-    "text": "Banking Application\nA full-stack web application simulating bank functions, built with Java SpringBoot and React.\nMiddHousing\nA web app for Middlebury students to find and review dorm rooms, featuring a campus map and user reviews."
+    "text": "Pneumonia Classification\nA deep learning project that used a Vision Transformer to classify pneumonia in chest X-rays.\nBanking Application\nA full-stack web application simulating bank functions, built with Java SpringBoot and React.\nMiddHousing\nA web app for Middlebury students to find and review dorm rooms, featuring a campus map and user reviews."
   },
   {
     "objectID": "index.html#projects",
     "href": "index.html#projects",
     "title": "Emmanuel Towner",
     "section": "",
-    "text": "Banking Application\nA full-stack web application simulating bank functions, built with Java SpringBoot and React.\nMiddHousing\nA web app for Middlebury students to find and review dorm rooms, featuring a campus map and user reviews."
+    "text": "Pneumonia Classification\nA deep learning project that used a Vision Transformer to classify pneumonia in chest X-rays.\nBanking Application\nA full-stack web application simulating bank functions, built with Java SpringBoot and React.\nMiddHousing\nA web app for Middlebury students to find and review dorm rooms, featuring a campus map and user reviews."
   },
   {
     "objectID": "index.html#latest-blog-post",
@@ -389,21 +389,21 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Hello! I’m Emmanuel Towner, a computer science major at Middlebury College."
+    "text": "Middlebury College | Middlebury, VT\nBA in Computer Science | Sept 2021 – Jan 2026"
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About",
-    "section": "Education",
-    "text": "Education\nMiddlebury College | Middlebury, VT\nBA in Computer Science | Sept 2021 – Jan 2026"
+    "section": "",
+    "text": "Middlebury College | Middlebury, VT\nBA in Computer Science | Sept 2021 – Jan 2026"
   },
   {
     "objectID": "about.html#experience",
     "href": "about.html#experience",
     "title": "About",
     "section": "Experience",
-    "text": "Experience\nNatural Language Processing Course Grader\nMiddlebury College | Middlebury, VT | February 2025 – May 2025\nSoftware Developer\nLigerBots | Newton, MA | September 2024 – December 2024\nMachine Learning Research Assistant\nMiddlebury College | Middlebury, VT | June 2024 – August 2024\nIntern\nNewton Housing Authority | Newton, MA | July 2021 – August 2021"
+    "text": "Experience\nNatural Language Processing Course Grader\nMiddlebury College | Middlebury, VT | February 2025 – May 2025\nSoftware Developer\nLigerBots | Newton, MA | September 2024 – December 2024\nMachine Learning Research Assistant\nMiddlebury College | Middlebury, VT | June 2024 – August 2024\nIntern\nNewton Housing Authority | Newton, MA"
   },
   {
     "objectID": "projects/middhousing/middhousing.html#contributors",
@@ -505,50 +505,50 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Bank App\n\n\n\n\n\n\n\n\n\n\n\nEmmanuel Towner\n\n\n\n\n\n\n\n\n\n\n\n\nPneumonia Classification\n\n\n\n\n\n\n\n\n\n\n\nEmmanuel Towner\n\n\n\n\n\n\n\n\n\n\n\n\nMiddHousing\n\n\n\n\n\n\n\n\n\n\n\nEmmanuel Towner\n\n\n\n\n\n\n\n\n\n\n\n\nPnuemonia Detection\n\n\n\n\n\nIn this project, we built a convolutional neural network (CNN) to embed chest X-ray images into a latent space, then compared three binary classifiers—Support Vector Machine, XGBoost, and Transformer—on their ability to detect pneumonia.\n\n\n\n\n\nMay 19, 2025\n\n\nLia Smith, Cameron Hudson, Robsan Dinka, Emmanuel Towner\n\n\n\n\n\n\nNo matching items"
+    "text": "Bank App\n\n\n\n\n\n\n\n\n\n\n\nEmmanuel Towner\n\n\n\n\n\n\n\n\n\n\n\n\nPneumonia Classification with Vision Transformer\n\n\n\n\n\n\n\n\n\n\n\nEmmanuel Towner\n\n\n\n\n\n\n\n\n\n\n\n\nOverview\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMiddHousing\n\n\n\n\n\n\n\n\n\n\n\nEmmanuel Towner\n\n\n\n\n\n\n\n\n\n\n\n\nPnuemonia Detection\n\n\n\n\n\nIn this project, we built a convolutional neural network (CNN) to embed chest X-ray images into a latent space, then compared three binary classifiers—Support Vector Machine, XGBoost, and Transformer—on their ability to detect pneumonia.\n\n\n\n\n\nMay 19, 2025\n\n\nLia Smith, Cameron Hudson, Robsan Dinka, Emmanuel Towner\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects/pneumonia/vit.html",
     "href": "projects/pneumonia/vit.html",
-    "title": "Pneumonia Classification",
+    "title": "Pneumonia Classification with Vision Transformer",
     "section": "",
     "text": "This model was part of a larger project where a team built a machine learning pipeline for image classification. We leveraged the Kaggle pneumonia chest X-ray dataset, which contains labeled normal and pneumonia cases. Our pipeline consisted of a CNN autoencoder to extract latent vectors from the images, which were then fed into different machine learning models for classification.",
     "crumbs": [
       "Home",
-      "Pneumonia Classification"
+      "Pneumonia Classification with Vision Transformer"
     ]
   },
   {
     "objectID": "projects/pneumonia/vit.html#overview",
     "href": "projects/pneumonia/vit.html#overview",
-    "title": "Pneumonia Classification",
+    "title": "Pneumonia Classification with Vision Transformer",
     "section": "",
     "text": "This model was part of a larger project where a team built a machine learning pipeline for image classification. We leveraged the Kaggle pneumonia chest X-ray dataset, which contains labeled normal and pneumonia cases. Our pipeline consisted of a CNN autoencoder to extract latent vectors from the images, which were then fed into different machine learning models for classification.",
     "crumbs": [
       "Home",
-      "Pneumonia Classification"
+      "Pneumonia Classification with Vision Transformer"
     ]
   },
   {
     "objectID": "projects/pneumonia/vit.html#my-role",
     "href": "projects/pneumonia/vit.html#my-role",
-    "title": "Pneumonia Classification",
+    "title": "Pneumonia Classification with Vision Transformer",
     "section": "My Role",
     "text": "My Role\nI designed a Vision Transformer in PyTorch that processed latent vectors, using self-attention mechanisms for binary image classification. The model achieved 77% overall accuracy and 98% recall on pneumonia cases. We felt that minimizing false negatives was more important than maximizing overall accuracy, effectively addressing class imbalance.",
     "crumbs": [
       "Home",
-      "Pneumonia Classification"
+      "Pneumonia Classification with Vision Transformer"
     ]
   },
   {
     "objectID": "projects/pneumonia/vit.html#features",
     "href": "projects/pneumonia/vit.html#features",
-    "title": "Pneumonia Classification",
+    "title": "Pneumonia Classification with Vision Transformer",
     "section": "Features",
-    "text": "Features\n\nAccepts latent vectors as input\nComputes probabilities for each class (pneumonia or not pneumonia)\nTrains, tests, and evaluates the model",
+    "text": "Features\n\nAccepts latent vectors as input\nComputes probabilities for each class (pneumonia or not pneumonia)\nTrains, tests, and evaluates the model\n\nimport torch\nimport torch.nn as nn",
     "crumbs": [
       "Home",
-      "Pneumonia Classification"
+      "Pneumonia Classification with Vision Transformer"
     ]
   },
   {
@@ -607,5 +607,37 @@
     "title": "Bank App",
     "section": "Links",
     "text": "Links\n\n📦 GitHub Repository"
+  },
+  {
+    "objectID": "projects/pneumonia/transformer.html",
+    "href": "projects/pneumonia/transformer.html",
+    "title": "Overview",
+    "section": "",
+    "text": "This model was part of a larger project where a team built a machine learning pipeline for image classification. We leveraged the Kaggle pneumonia chest X-ray dataset, which contains labeled normal and pneumonia cases. Our pipeline consisted of a CNN autoencoder to extract latent vectors from the images, which were then fed into different machine learning models for classification."
+  },
+  {
+    "objectID": "projects/pneumonia/transformer.html#my-role",
+    "href": "projects/pneumonia/transformer.html#my-role",
+    "title": "Overview",
+    "section": "My Role",
+    "text": "My Role\nI designed a Vision Transformer in PyTorch that processed latent vectors, using self-attention mechanisms for binary image classification. The model achieved 77% overall accuracy and 98% recall on pneumonia cases. We felt that minimizing false negatives was more important than maximizing overall accuracy, effectively addressing class imbalance."
+  },
+  {
+    "objectID": "projects/pneumonia/transformer.html#features",
+    "href": "projects/pneumonia/transformer.html#features",
+    "title": "Overview",
+    "section": "Features",
+    "text": "Features\n\nAccepts latent vectors as input\nComputes probabilities for each class (pneumonia or not pneumonia)\nTrains, tests, and evaluates the model\n\n\nimport torch\nimport torch.nn as nn\n\nclass Transformer(nn.Module):\n    \"\"\"\n    A Transformer model for image classification tasks. Takes in a latent vectors and compute probabilities for each class.\n    Args:\n        input_dim (int): The dimensionality of the input features.\n        num_patches (int): The number of patches (sequence length) in the input.\n        output_dim (int): The dimensionality of the output (number of classes for classification).\n        num_heads (int, optional): The number of attention heads in the multi-head attention mechanism.\n        hidden_dim (int, optional): The dimensionality of the hidden representation.\n        dropout (float, optional): Dropout rate applied in the encoder layers.\n        num_layers (int, optional): The number of encoder layers in the Transformer. \n    \"\"\"\n    def __init__(self, input_dim: int, num_patches: int,  output_dim: int, num_heads: int = 2,\n                hidden_dim: int = 64, dropout: float = 0, num_layers: int = 6):\n\n        super(Transformer, self).__init__()\n        \n        self.input_dim = input_dim\n        self.num_patches = num_patches\n        self.hidden_dim = hidden_dim\n        self.num_heads = num_heads\n        \n        # Linear Mapper - Maps input to hidden dimension\n        self.linear_mapper = nn.Linear(input_dim, hidden_dim)\n        \n        # Class Token - Learnable parameter for classification (prepended to input sequence)\n        self.class_token = nn.Parameter(torch.rand(1, hidden_dim))\n        \n        # Positional Encoding - Learned positional embedding\n        self.pos_embedding = nn.Parameter(torch.randn(1, num_patches + 1, hidden_dim))\n        \n        # Encoder Layers\n        self.encoder_layers = nn.ModuleList([\n            EncoderLayer(hidden_dim, num_heads, dropout) for _ in range(num_layers)\n        ])\n        \n        # Classifier\n        self.classifier = nn.Linear(hidden_dim, output_dim)\n       \n    def forward(self, x: torch.Tensor) -&gt; torch.Tensor:\n        \"\"\"\n        Forward pass of the Transformer model.\n        Args:\n            x (torch.Tensor): Input tensor of \n        Returns:\n            y_hat (torch.Tensor): Output tensor\n        \"\"\"\n        # Creates a fake sequence so that the input can be passed to the transformer\n        if x.dim() == 2:\n            x = x.unsqueeze(1)  # (batch_size, 1, input_dim)\n        \n        # Maps the vector corresponding to each patch to the hidden size dimension\n        tokens = self.linear_mapper(x) # (batch_size, num_patches, hidden_dim)\n        \n        batch_size = x.shape[0]\n        \n        # Add class token to the input sequence\n        class_tokens = self.class_token.expand(batch_size, -1).unsqueeze(1) # (batch_size, 1, hidden_dim)\n        tokens = torch.cat((class_tokens, tokens), dim=1) # (batch_size, num_patches + 1, hidden_dim)\n\n        # Add positional encoding\n        output = tokens + self.pos_embedding\n        \n        # Transformer encoding\n        for layer in self.encoder_layers:\n            output = layer(output)\n        \n        output = output[:, 0]  # Get the class token output\n        return self.classifier(output)\n\n    \nclass EncoderLayer(nn.Module):\n    def __init__(self, hidden_dim: int, num_heads: int, dropout: float):\n        \"\"\"\n        Initializes the Encoder module.\n        Args:\n            hidden_dim (int): The dimensionality of the hidden layers.\n            num_heads (int): The number of attention heads in the multi-head attention mechanism.\n            dropout (float): The dropout rate to be applied in the attention and feed-forward layers.\n        \"\"\"\n        super().__init__()\n        \n        # Multihead Attention \n        self.attention = nn.MultiheadAttention(hidden_dim, num_heads, dropout=dropout)\n        self.norm1 = nn.LayerNorm(hidden_dim)\n        self.norm2 = nn.LayerNorm(hidden_dim)\n        \n        # Feed Forward Network\n        self.feed_forward = nn.Sequential(\n            nn.Linear(hidden_dim, hidden_dim),\n            nn.ReLU(),\n            nn.Dropout(dropout),\n            nn.Linear(hidden_dim, hidden_dim),\n            nn.ReLU(),\n            nn.Dropout(dropout)\n        )\n        \n    def forward(self, x: torch.Tensor) -&gt; torch.Tensor:\n        \"\"\"\n        Performs the forward pass of the Transformer block.\n        Args:\n            x (torch.Tensor): Input tensor of shape (batch_size, sequence_length, hidden_dim).\n        Returns:\n            torch.Tensor: Output tensor of the same shape as the input (batch_size, sequence_length, hidden_dim).\n        \"\"\"\n        \n        # Transpose for MultiheadAttention: (B, S, E) -&gt; (S, B, E)\n        x_t = x.transpose(0, 1)\n        \n        attn_output, _ = self.attention(x_t , x_t , x_t ) # MultiHead Attention\n        x = self.norm1(x + attn_output.transpose(0, 1)) # Add & Norm w/ (B, S, E)\n        \n        ff_output = self.feed_forward(x) # Feed Forward Network\n        x = self.norm2(x + ff_output) # Add & Norm\n        \n        return x"
+  },
+  {
+    "objectID": "projects/pneumonia/Final_Project_BP.html#group-contributions",
+    "href": "projects/pneumonia/Final_Project_BP.html#group-contributions",
+    "title": "Pnuemonia Detection",
+    "section": "Group Contributions",
+    "text": "Group Contributions\n\nEmmanuel Towner\n\nImplemented a Vision Transformer-style classifier in Transformer.py \nManaged the adaption and intergration of the main codebase \nContributed to model evaluation ### Cameron Hudson\nImplemented a gradient boosting classifier pipeline in GradientBoosting.py  \nWrote Introduction, abstract, and value statements of the blog post \n\n\n\nLia Smith\n\nProduced and shared vectorization notebook artifacts used by the team \nPreprocessed data\nImplemented all Autoencoders\nCreated all plots\nCreated latent vector and labels array\nContributed to model evaluation\nWrote the Materials, Results, and Conclusions\n\n\n\nRobsan Dinka\n\nImplemented the SVM classifier in svm.py  \nContributed to project writing and ethics-related documentation\n\nUpdated README/report sections in parallel with model work.\nAdded ethics/documentation content to keep technical implementation aligned with project requirements.",
+    "crumbs": [
+      "Home",
+      "Pnuemonia Detection"
+    ]
   }
 ]

@@ -21,14 +21,7 @@ website:
             href: https://github.com/etowner/etowner.github.io
           - text: Report a Bug
             href: https://github.com/etowner/etowner.github.io/issues
-  sidebar:
-    - id: pneumonia
-      title: "Pneumonia"
-      style: "docked"
-      search: false
-      contents:
-        - projects/pneumonia/Final_Project_BP.ipynb
-        - projects/pneumonia/vit.qmd
+  
         
       
 

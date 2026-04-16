@@ -4,9 +4,11 @@ format: html
 ---
 
 ## 🖥️ Projects
+- **[Pneumonia Classification](projects/pneumonia/pneumonia.ipynb)**  
+  A machine learning project that used multiple models to classify pneumonia in chest X-rays.
 
-- **[Banking Application](projects/bank/bank_app.qmd)**  
-  A full-stack web application simulating bank functions, built with Java SpringBoot and React.
+<!-- - **[Banking Application](projects/bank/bank_app.qmd)**  
+  A full-stack web application simulating bank functions, built with Java SpringBoot and React. -->
 
 - **[MiddHousing](projects/middhousing/middhousing.qmd)**  
   A web app for Middlebury students to find and review dorm rooms, featuring a campus map and user reviews.
