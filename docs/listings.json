@@ -13,11 +13,8 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/bank/bank_app.html",
-      "/projects/pneumonia/vit.html",
-      "/projects/pneumonia/transformer.html",
       "/projects/middhousing/middhousing.html",
-      "/projects/pneumonia/Final_Project_BP.html"
+      "/projects/pneumonia/pneumonia.html"
     ]
   }
 ]
