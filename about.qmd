@@ -9,11 +9,10 @@ about:
       href: https://www.linkedin.com/in/emmanuel-t-12b558211/
     - icon: github
       text: Github
-      href: https://github.com/EpicET
+      href: https://github.com/etowner
 
 ---
 
-Hello! I'm Emmanuel Towner, a computer science major at Middlebury College.
 
 ## Education
 
@@ -31,7 +30,5 @@ LigerBots | Newton, MA | September 2024 – December 2024
 Machine Learning Research Assistant  
 Middlebury College | Middlebury, VT | June 2024 – August 2024
 
-Intern  
-Newton Housing Authority | Newton, MA | July 2021 – August 2021
 
 

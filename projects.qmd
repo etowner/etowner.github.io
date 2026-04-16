@@ -1,7 +1,7 @@
 ---
-title: "Machine Learning Blog"
+title: "Projects"
 listing:
-  contents: posts
+  contents: projects
   sort: "date desc"
   type: default
   categories: false
@@ -9,5 +9,3 @@ listing:
   filter-ui: false
 page-layout: full
 ---
-
- 
